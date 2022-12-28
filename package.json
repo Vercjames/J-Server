@@ -1,0 +1,24 @@
+{
+  "name": "j-server",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "https://github.com/Vercjames",
+  "description": "Worlds simplest server for testing my ubuntu servers",
+  "repository": "https://github.com/Vercjames/J-Server",
+  "homepage": "https://github.com/Vercjames/J-Server",
+  "main": "server.js",
+  "private": false,
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  },
+  "devDependencies": {
+    "eslint": "^8.30.0"
+  }
+}
+
